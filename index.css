@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
+
+.container {
+    width: 50%;
+    height: 0;
+    margin: 10% auto;
+}
+
+.card {
+    border: 5px rgb(128, 64, 0) solid;
+    border-radius: 8px;
+    display: flex;
+    justify-content: flex-start;
+    width: 600px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(218, 215, 197, 0.644);
+}
+
+
+
+.card-img {
+    height: auto;
+    width: 200px;
+}
+
+.card-description {
+    margin-left: 20px;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card h1 {
+    font-family: 'DynaPuff', cursive;
+}
+
+.sub-description {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+span {
+    font-family: 'DynaPuff', cursive;
+    color: brown;
+}
+
+span:hover {
+    cursor: pointer;
+}
